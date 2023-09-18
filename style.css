@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap');
+
+
+
+
+*{  
+     margin: 0;
+    padding: 0;
+
+}
+.container{
+    display: flex;
+}
+
+
+.sidebar{
+    background-color: #b3a7a4;
+     transition: transform 0.3s ease-in;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    height: 150vh;
+    position: absolute;
+    
+}
+.sidebar nav{
+    padding: 20px;
+    padding-top: 140px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 50px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    background-color: #ffffff;
+    width: 100vw;
+    padding: 25px ;
+}
+.infocontainer{
+   /*background-color:blue ;*/
+    height: 60vh;
+    width: 80vw;
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.hello{
+    font-size: 40px;
+}
+.name{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Gruppo', sans-serif;
+    
+}
+.about{
+    font-size: 30px;
+}
+.moreabout{
+    font-size: 20px;
+    margin-top: 15PX;
+}
+
+.buttons {
+    margin-top: 34px;
+    
+}
+.buttons button{
+    padding: 8px 13px;
+    border-radius: 22px;
+    color: white;
+    background-color: cadetblue;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    color: cadetblue;
+    background-color: white;
+}
+
+.devinfo{
+    display: flex;
+    justify-content:  center;
+    flex-direction: column;
+    margin-left: 20px;
+
+}
+.devpic img{
+    height: 60vh;
+}
+
+/* contact.html*/
+.contactform{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    padding-top: 20px; 
+    text-align: center;
+
+}
+ h1{
+   
+    font-size: 50px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    margin-top: 100px;
+}
+.p{
+    font-size: 30px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+
+}
+
+.contactform div{
+    padding: 25px 0;
+    font-size: 25px;
+    
+    
+}
+.contactform form div input{
+    
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+
+}
+.btn{
+    background-color: cadetblue;
+    color: white;
+    padding: 8px 13px;
+    border-radius: 22px;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: cadetblue;
+    background-color: white;  
+}
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    font-size: 36px;
+    
+}
+
+/*About Me*/
+.intro h2{
+    font-size: 50px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    margin: 40px;
+}
+.intro p{
+    font-family: 'Gruppo', sans-serif;
+    font-size: 20px;
+    margin: 40px;
+}
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+.menuimg{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.menu{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.close{
+    margin-left: 143px;
+    margin-top: 10px;
+}
+@media (max-width :1200px) {
+    /*.sidebar{
+        transform: translate(-443px, 0px);
+         position: absolute;
+    }*/
+    .devpic{
+        display: none;
+    }
+    .intro{
+        margin: 8px;
+    }
+    
+}
